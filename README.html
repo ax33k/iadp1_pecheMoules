@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#ia-pêche-moules-profondeur">IA Pêche Moules (profondeur)</a>
+<ul>
+<li><a href="#compiler">Compiler</a></li>
+<li><a href="#lancer-le-client">Lancer le client</a></li>
+<li><a href="#algorithme-utilisé">Algorithme utilisé</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="ia-pêche-moules-profondeur">IA Pêche Moules (profondeur)</h1>
+<p>Intelligence Artificielle réalisé dans le cadre d’un TP du module d’IA.<br>
+Serveur de jeu (fournit par les enseignants): <a href="http://iic0e.univ-littoral.fr/moodle/mod/resource/view.php?id=12366">http://iic0e.univ-littoral.fr/moodle/mod/resource/view.php?id=12366</a></p>
+<h2 id="compiler">Compiler</h2>
+<p>Pour compiler le client,</p>
+<pre><code>javac *.java
+</code></pre>
+<p>Classes modifiées:</p>
+<ul>
+<li>Client.java</li>
+<li>Case.java</li>
+</ul>
+<p>Classes requises pour la bonne exécution de l’IA:</p>
+<ul>
+<li>Client.java</li>
+<li>Labyrinthe.java</li>
+<li>Client.java</li>
+<li>Joueur.java</li>
+</ul>
+<h2 id="lancer-le-client">Lancer le client</h2>
+<p>Pour lancer le client, <em>le serveur doit évidemment être lancée</em></p>
+<pre><code>java Client &lt;ip du serveur&gt; &lt;port du serveur&gt; IA_Lebas
+</code></pre>
+<p>Exemple:</p>
+<pre><code>java Client 127.0.0.1 1337 IA_Lebas
+</code></pre>
+<h2 id="algorithme-utilisé">Algorithme utilisé</h2>
+<p>Algorithme de parcours en profondeur (<strong>récursif</strong>).</p>
+
+    </div>
+  </div>
+</body>
+
+</html>
